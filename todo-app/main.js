@@ -15,7 +15,7 @@ function addTask() {
     });
 
     taskList.appendChild(li);
-
+// animation
     setTimeout(() => {
         li.classList.add("show");
     }, 10); 
@@ -37,7 +37,7 @@ function loadTasks() {
             saveTasks();
         });
     });
-
+// animation     
     document.querySelectorAll("li").forEach(li => {
         setTimeout(() => {
             li.classList.add("show");
